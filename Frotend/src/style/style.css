@@ -125,32 +125,98 @@ body {
     background-color: #E8E8E8;
 }
 
-.about-header, .header-services {
+.about-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 300px;
-    margin-right: 20px;
     margin-top: 40px;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
     color: #495464;
-    border-bottom: 4px solid #495464; /* 1px underline */
-    letter-spacing: 5px;              /* 5px letter spacing */
-    padding-bottom: 8px;        
+    border-bottom: 4px solid #495464; 
+    letter-spacing: 5px;              
 }
 
-.content-about {
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    background-color: transparent;
+    margin-top: -16vh;
+    gap: 100px;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin-right: 20px;
+    margin-top: -20vh;
+    font-size: 14px;
+    font-weight: normal;
+    color: #495464;
+    line-height: 2;
+}
+
+
+.education-item, .strength-item {
+    border: 1px solid #495464;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 550px; 
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-educ, .about-strength {
+    font-size: 14px;
+    font-weight: normal;
+    color: #495464;
+    line-height: 1.5;
+}
+
+.custom-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #1F4E5F;
+    border-radius: 25px;
+    color: #E8E8E8;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3) 
+        inset 0 1px 3px rgba(247, 243, 243, 0.2);
+}
+
+.button-text {
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    color: #E8E8E8;
+}
+
+.custom-button:hover {
+    background-color: rgba(31, 78, 95, 0.8);
+}
+/* .content-about {
+    background-color: tomato;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-self: center;
     flex-direction: row;
     max-width: 1200px;
-    gap: 10vh; /* Adjust the value as needed */
+    /* gap: 10vh; Adjust the value as needed 
+}*/
 
-}
-
+/*
 .about-text-container {
     display: flex;
     flex-direction: column;
@@ -158,7 +224,7 @@ body {
     justify-content: center;
     max-width: 1200px;
     height: 65vh;
-    margin-top: -10vh;
+    margin-top: -5vh;
     background-color: transparent;
 }
 
@@ -254,7 +320,7 @@ body {
     max-width: 600px;
     background-color: rgba(255, 255, 255, 0.2);
     line-height: 2;
-}
+} */
 /* 
 .content-button {
     display: flex;

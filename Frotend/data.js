@@ -1,3 +1,13 @@
+window.myAboutData = {
+    "about": [
+        {
+            "image": "./src/image/portfolio-pic-hero.png",
+            "description1": "I am passionate about the details of design and creating designs that are simple, modern, and meaningful. With a strong focus on simplicity, meaningful solutions, and problem-solving, I excel at transforming concepts into visually impactful designs that communicate effectively and enhance user experiences.",
+            "description2": "Whether working independently or collaboratively, I consistently strive to bring creativity, precision, and purpose to every project. My goal is to deliver designs that not only inspire but also achieve their intended purpose with clarity."
+        }
+    ]
+}
+
 window.myEducationData = {
     "education": [
         {
