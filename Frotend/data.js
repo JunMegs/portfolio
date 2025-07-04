@@ -35,3 +35,48 @@ window.myStrength = {
         }
     ]
 }
+
+window.mySkillsData = {
+    "skills": [ {
+            "icon1": `<iconify-icon icon="proicons:code" width="30"></iconify-icon>`,
+            "header1": "Programming Languages",
+            "skills1": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Python",
+                "C",
+                "SQL"
+            ],
+            "icon2": `<iconify-icon icon="proicons:globe" width="30"></iconify-icon>`,
+            "header2": "Frameworks and Libraries",
+            "skills2": [
+                "React",
+                "Node.js",
+                "Express.js",
+                "Tailwind CSS",
+                "Vuetify"
+            ],
+            "icon3": `<iconify-icon icon="proicons:toolbox" width="30"></iconify-icon>`,
+            "header3": "Tools and Technologies",
+            "skills3": [
+                "Git",
+                "Figma",
+                "Visual Studio Code"
+            ]
+        }
+    ]
+}
+
+window.myContactData = {
+    "contact": [
+        {   
+            "phone-icon": `<iconify-icon icon="tabler:phone" width="30"></iconify-icon>`,
+            "email-icon": `<iconify-icon icon="tabler:mail" width="30"></iconify-icon>`,
+            "address-icon": `<iconify-icon icon="tabler:map-pin-filled" width="30"></iconify-icon>`,
+            "number": "09666959599",
+            "email": "jbmegullas@gmail.com",
+            "address": "Magkuno St., Poblacion, Bayugan City, Philippines",
+        }
+    ]
+}
