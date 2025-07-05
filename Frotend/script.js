@@ -114,6 +114,14 @@ document.addEventListener('DOMContentLoaded', () => {
                                                 ${contact['address-icon']}
                                                 <span>${contact.address}</span>
                                         </div>
+                                        <div class="contact-icon4">
+                                                ${contact['facebook-icon']}
+                                                <a href="${contact['fb-account']}" target="_blank"><span>${contact['fb-name']}</span></a>
+                                        </div>
+                                        <div class="contact-icon5">
+                                                ${contact['github-icon']}
+                                                <a href="${contact['github-account']}" target="_blank"><span>${contact['github-name']}</span></a>
+                                        </div>
                                 </div>
                         `).join('');
                 }

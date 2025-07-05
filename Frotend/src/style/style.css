@@ -7,7 +7,7 @@ html {
 
 body {
     background-color: #222831;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: auto;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .navigation.scrolled {
-    background-color: rgba(24, 23, 23, 0.8);
+    background-color: #2f3641;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -81,10 +81,10 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 100%;
-    height: 1080px;
+    height: 980px;
     /* margin: 0 0 100px 0; */
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                    url('../image/forest-background.jpg');
+                    url('../image/robot-image-bg.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
@@ -156,6 +156,7 @@ body {
     margin-right: auto;
 }
 
+/* ABOUT CONTENT DESIGN  */
 .about {
     display: flex;
     flex-direction: column;
@@ -177,6 +178,10 @@ body {
     color: #495464;
     letter-spacing: 5px;
     width: auto; /* or remove width */
+}
+
+.about-header {
+    margin-top: 10vh;
 }
 
 .about-title, .skills-title {
@@ -219,7 +224,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     max-width: 500px; 
-    background-color: rgba(21, 78, 55, 0.1);
+    background-color: rgba(248, 247, 247, 0.9);
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px #bbbbc0,
@@ -232,6 +237,11 @@ body {
     color: #495464;
     line-height: 1.5;
 
+}
+
+.Btn-link {
+    text-decoration: none; /* Remove underline from link */
+    cursor:pointer; 
 }
 
 .custom-button {
@@ -259,6 +269,7 @@ body {
     background-color: rgba(31, 78, 95, 0.8);
 }
 
+/* SKILLS CONTENT DESIGN*/
 .skills-content {
     display: flex;
     flex-direction: column;
@@ -274,7 +285,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
     margin-top: 40px;
     color: #495464;
     letter-spacing: 5px;
@@ -293,8 +304,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     max-width: 1200px;
+    background-color: transparent;
 }
 
 .skills1, .skills2, .skills3 {
@@ -303,8 +315,26 @@ body {
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), 
                 -10px -10px 20px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    width: 500px;
     height: 200px;
+}
+
+.skills1:hover {
+    box-shadow: 10px 10px 20px rgba(125, 7, 161, 0.4), 
+                -10px -10px 20px rgba(125, 7, 161, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.skills2:hover {
+    box-shadow: 10px 10px 20px rgba(7, 17, 161, 0.4), 
+                -10px -10px 20px rgba(7, 17, 161, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.skills3:hover {
+    box-shadow: 10px 10px 20px rgba(161, 7, 7, 0.4), 
+                -10px -10px 20px rgba(161, 7, 7, 0.4);
+    transition: box-shadow 0.3s ease;
 }
 
 .skills1 .skills-icon1, 
@@ -319,7 +349,7 @@ body {
     gap: 10px;
     font-size: 1.5rem;
     margin: 20px 10px;
-    /* padding: 15px; */
+
 }
 
 .skills1 h2, .skills2 h2, .skills3 h2 {
@@ -333,7 +363,7 @@ body {
 .skills-list2,
 .skills-list3 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    grid-template-columns: repeat(3, 1fr); /* 4 items per row */
     gap: 10px;
     list-style-type: none;
     font-size: 14px;
@@ -356,6 +386,7 @@ body {
     font-size: 14px;
     font-weight: normal;
     line-height: 1.5;
+    text-align: center;
 }
 
 .skills-list1 li {
@@ -383,15 +414,16 @@ body {
     max-width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #eee;
+    background-color: #f3f3f3;
 }
 
 .contact-form-container {
     display: flex;
     flex-direction: row;
-    margin-top: -20vh;
-    gap: 10vh;
+    margin-top: -13.5vh;
+    gap: 20vh;
     max-width: 1200px;
+    background-color: transparent;
 }
 
 .contact-form1 {
@@ -400,8 +432,7 @@ body {
     justify-content: flex-start;
     max-width: 600px;
     width: 100%;
-    margin-top: 15vh;
-    padding: 20px;
+    margin-top: 17.5vh;
 }
 
 .contact-form1 .contact-h1 .contact-text .contact-item {
@@ -418,6 +449,7 @@ body {
     font-weight: 600;
     color: #495464;
     margin-bottom: 0;
+    /* background-color: violet; */
 }
 
 .contact-text {
@@ -434,7 +466,11 @@ body {
 }
 
 
-.contact-icon1, .contact-icon2, .contact-icon3 {
+.contact-icon1, 
+.contact-icon2, 
+.contact-icon3, 
+.contact-icon4, 
+.contact-icon5 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -442,6 +478,11 @@ body {
     height: 50px;
     color: #495464;
     white-space: nowrap;
+    text-decoration-style: none;
+}
+
+.contact-icon4 a, .contact-icon5 a {
+    text-decoration: none;
 }
 
 .contact-item span {
@@ -465,11 +506,10 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     width: 450px;
-    height: 650px;
-    /* max-width: 600px; */
+    height: 600px;
     margin-top: 20vh;
     padding: 20px;
-    /* border: 2px solid #495464; */
+
     border-radius: 10px;
     background: rgba(247, 247, 247, 0.1);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3),
@@ -477,11 +517,21 @@ body {
 }
 
 .email-form-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #495464;
-    margin-bottom: 40px;
+    
     text-align: center;
+}
+
+.email-form-text {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #495464;
+    margin: -10px 0 40px 0;
+    
+
 }
 
 .email-form-group1, 
@@ -492,7 +542,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .email-form-group1 label,
@@ -508,7 +558,7 @@ body {
 
 .email-form-group1 input,
 .email-form-group2 input,
-.email-form-group3 input {
+.email-form-group3 textarea {
     margin: 0 auto;
     width: 80%;
     display: block;
@@ -524,17 +574,27 @@ body {
                 -2px -2px 20px rgba(0, 0, 0, 0.1);
 }
 
-.email-form-group3 input {
+.email-form-group3 textarea {
+    overflow: hidden; /* 'none' is invalid; use 'hidden' to hide scrollbars */
     width: 80%;
     height: 150px;
     padding: 10px;
+    resize: vertical;
+
+    scrollbar-width: none;         /* Firefox */
+    -ms-overflow-style: none;      /* IE and Edge */
+}
+
+/* Hide scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+.email-form-group3 textarea::-webkit-scrollbar {
+    display: none;
 }
 
 .email-form-group4 {
     display: flex;
     justify-content: flex-start;
     width: 80%;
-    margin-left: 3.5vh;
+    margin-left: 3.7vh;
 }
 
 .email-form-button {

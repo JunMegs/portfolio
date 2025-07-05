@@ -2,8 +2,8 @@ window.myAboutData = {
     "about": [
         {
             "image": "./src/image/portfolio-pic-hero.png",
-            "description1": "I am passionate about the details of design and creating designs that are simple, modern, and meaningful. With a strong focus on simplicity, meaningful solutions, and problem-solving, I excel at transforming concepts into visually impactful designs that communicate effectively and enhance user experiences.",
-            "description2": "Whether working independently or collaboratively, I consistently strive to bring creativity, precision, and purpose to every project. My goal is to deliver designs that not only inspire but also achieve their intended purpose with clarity."
+            "description1": "As a Computer Science graduate with a strong foundation in both UI/UX design and web programming, I am passionate about crafting intuitive, modern, and purpose-driven digital experiences. I specialize in creating clean and meaningful designs that not only captivate visually but also enhance usability and functionality.",
+            "description2": "With a keen eye for detail and a user-centered approach, I transform complex ideas into clear, impactful solutions that align with user needs and business goals. Whether working independently or as part of a team, I bring creativity, technical precision, and a problem-solving mindset to every project—striving to deliver designs that are both visually compelling and functionally effective."
         }
     ]
 }
@@ -77,6 +77,12 @@ window.myContactData = {
             "number": "09666959599",
             "email": "jbmegullas@gmail.com",
             "address": "Magkuno St., Poblacion, Bayugan City, Philippines",
+            "facebook-icon": `<iconify-icon icon="mingcute:facebook-fill" width="30"></iconify-icon>`,
+            "fb-name": "Junward B. Megullas",
+            "fb-account": "https://www.facebook.com/junward.megullas.3",
+            "github-icon": `<iconify-icon icon="mingcute:github-2-fill" width="30"></iconify-icon>`,
+            "github-name": "Junward Megullas",
+            "github-account": "https://github.com/JunMegs",
         }
     ]
 }
